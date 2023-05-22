@@ -1,0 +1,23 @@
+## PySpark Application Example
+
+This particular example takes in csv data from the file and sorts according to
+the 3rd and last column in the data.
+
+Input:
+
+…	cca2	…	device_id	…	timestamp
+…	US	…	1	…	1
+…	IN	…	2	…	2
+…	US	…	3	…	2
+…	CN	…	4	…	4
+…	US	…	5	…	3
+…	IN	…	6	…	1
+Output:
+
+…	cca2	…	device_id	…	timestamp
+…	CN	…	4	…	4
+…	IN	…	6	…	1
+…	IN	…	2	…	2
+…	US	…	1	…	1
+…	US	…	3	…	2
+…	US	…	5	…	3
